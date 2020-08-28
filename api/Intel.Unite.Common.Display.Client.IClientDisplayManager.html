@@ -1,0 +1,816 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IClientDisplayManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IClientDisplayManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager">
+  
+  
+  <h1 id="Intel_Unite_Common_Display_Client_IClientDisplayManager" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager" class="text-break">Interface IClientDisplayManager
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for client display manager.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Display.Client.html">Intel.Unite.Common.Display.Client</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IClientDisplayManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_ClientDisplays_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.ClientDisplays*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_ClientDisplays" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.ClientDisplays">ClientDisplays</h4>
+  <div class="markdown level1 summary"><p>Client displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;PhysicalDisplay&gt; ClientDisplays { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;</td>
+        <td><p>The client displays.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_HubDisplays_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.HubDisplays*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_HubDisplays" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.HubDisplays">HubDisplays</h4>
+  <div class="markdown level1 summary"><p>Hub displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;PhysicalDisplay&gt; HubDisplays { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;</td>
+        <td><p>The hub displays.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_IsMultiDisplaySupported_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.IsMultiDisplaySupported*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_IsMultiDisplaySupported" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.IsMultiDisplaySupported">IsMultiDisplaySupported</h4>
+  <div class="markdown level1 summary"><p>Changing this value will toggle the selector between a radio button and check box for
+display selection. This can be changed at any time and must update the UI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsMultiDisplaySupported { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this object is multi display supported, false if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_AllocateUiInClientDisplayAsync_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.AllocateUiInClientDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_AllocateUiInClientDisplayAsync_Intel_Unite_Common_Module_Common_MarshalNativeHandleContract_Intel_Unite_Common_Display_Client_ClientAllocationInfo_System_Action_Intel_Unite_Common_Display_Client_ClientAllocationResult__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.AllocateUiInClientDisplayAsync(Intel.Unite.Common.Module.Common.MarshalNativeHandleContract,Intel.Unite.Common.Display.Client.ClientAllocationInfo,System.Action{Intel.Unite.Common.Display.Client.ClientAllocationResult})">AllocateUiInClientDisplayAsync(MarshalNativeHandleContract, ClientAllocationInfo, Action&lt;ClientAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that tries to allocate a UI element in a ClientDisplay with the
+specified HubAllocationInfo. Raises the allocated view event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllocateUiInClientDisplayAsync(MarshalNativeHandleContract uiElement, ClientAllocationInfo allocationInfo, Action&lt;ClientAllocationResult&gt; allocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Module.Common.MarshalNativeHandleContract.html">MarshalNativeHandleContract</a></td>
+        <td><span class="parametername">uiElement</span></td>
+        <td><p>UI element to be allocated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Client.ClientAllocationInfo.html">ClientAllocationInfo</a></td>
+        <td><span class="parametername">allocationInfo</span></td>
+        <td><p>Information about the allocation request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Client.ClientAllocationResult.html">ClientAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallback</span></td>
+        <td><p>Function to notify the result of the allocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_AllocateUiInClientDisplayAsync_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.AllocateUiInClientDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_AllocateUiInClientDisplayAsync_System_Windows_FrameworkElement_Intel_Unite_Common_Display_Client_ClientAllocationInfo_System_Action_Intel_Unite_Common_Display_Client_ClientAllocationResult__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.AllocateUiInClientDisplayAsync(System.Windows.FrameworkElement,Intel.Unite.Common.Display.Client.ClientAllocationInfo,System.Action{Intel.Unite.Common.Display.Client.ClientAllocationResult})">AllocateUiInClientDisplayAsync(FrameworkElement, ClientAllocationInfo, Action&lt;ClientAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that tries to allocate a UI element in a ClientDisplay with the
+specified HubAllocationInfo. Raises the ViewAllocatedEvent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllocateUiInClientDisplayAsync(FrameworkElement uiElement, ClientAllocationInfo allocationInfo, Action&lt;ClientAllocationResult&gt; allocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Windows.FrameworkElement</span></td>
+        <td><span class="parametername">uiElement</span></td>
+        <td><p>UI element to be allocated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Client.ClientAllocationInfo.html">ClientAllocationInfo</a></td>
+        <td><span class="parametername">allocationInfo</span></td>
+        <td><p>Information about the allocation request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Client.ClientAllocationResult.html">ClientAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallback</span></td>
+        <td><p>Function to notify the result of the allocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DeallocateUiFromClientDisplayAsync_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DeallocateUiFromClientDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DeallocateUiFromClientDisplayAsync_Intel_Unite_Common_Display_Client_ClientDisplayView_System_Action_Intel_Unite_Common_Display_Client_ClientAllocationResult__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DeallocateUiFromClientDisplayAsync(Intel.Unite.Common.Display.Client.ClientDisplayView,System.Action{Intel.Unite.Common.Display.Client.ClientAllocationResult})">DeallocateUiFromClientDisplayAsync(ClientDisplayView, Action&lt;ClientAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that deallocates a UI element in a ClientDisplay that corresponds to
+the specified DisplayView.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeallocateUiFromClientDisplayAsync(ClientDisplayView allocatedDisplayView, Action&lt;ClientAllocationResult&gt; deallocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Client.ClientDisplayView.html">ClientDisplayView</a></td>
+        <td><span class="parametername">allocatedDisplayView</span></td>
+        <td><p>Contains all information related to an allocated UI
+request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Client.ClientAllocationResult.html">ClientAllocationResult</a>&gt;</td>
+        <td><span class="parametername">deallocateCallback</span></td>
+        <td><p>Function that gets notified with the result of the
+deallocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DeallocateUisOfAnOwnerAsync_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DeallocateUisOfAnOwnerAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DeallocateUisOfAnOwnerAsync_System_Guid_System_Action_System_Boolean__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DeallocateUisOfAnOwnerAsync(System.Guid,System.Action{System.Boolean})">DeallocateUisOfAnOwnerAsync(Guid, Action&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that deallocates all the UI elements in the ClientDisplay that
+correspond to the specified OwnerId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeallocateUisOfAnOwnerAsync(Guid ownerId, Action&lt;bool&gt; deallocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">ownerId</span></td>
+        <td><p>OwnerId of the source module that allocated a UI element
+in the first place.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">deallocateCallback</span></td>
+        <td><p>Function that gets notified with the result of the
+deallocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DisablePhysicalDisplayInHubScreenSelector_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DisablePhysicalDisplayInHubScreenSelector*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DisablePhysicalDisplayInHubScreenSelector_System_Int32_System_Int32_System_Int32_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DisablePhysicalDisplayInHubScreenSelector(System.Int32,System.Int32,System.Int32)">DisablePhysicalDisplayInHubScreenSelector(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DisablePhysicalDisplayInHubScreenSelector(int index, int numberOfPresentations, int maxOfPresentations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfPresentations</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxOfPresentations</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_ExpandRemoteViewSection_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.ExpandRemoteViewSection*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_ExpandRemoteViewSection_System_Boolean_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.ExpandRemoteViewSection(System.Boolean)">ExpandRemoteViewSection(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Expand remote view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ExpandRemoteViewSection(bool expand)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">expand</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_HideDisplayView_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.HideDisplayView*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_HideDisplayView_System_Guid_Intel_Unite_Common_Display_Client_ClientDisplayViewType_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.HideDisplayView(System.Guid,Intel.Unite.Common.Display.Client.ClientDisplayViewType)">HideDisplayView(Guid, ClientDisplayViewType)</h4>
+  <div class="markdown level1 summary"><p>Hides the display view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HideDisplayView(Guid displayViewId, ClientDisplayViewType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>Display View id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Client.ClientDisplayViewType.html">ClientDisplayViewType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Display type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_SetDisplayViewVisible_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.SetDisplayViewVisible*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_SetDisplayViewVisible_System_Guid_Intel_Unite_Common_Display_Client_ClientDisplayViewType_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.SetDisplayViewVisible(System.Guid,Intel.Unite.Common.Display.Client.ClientDisplayViewType)">SetDisplayViewVisible(Guid, ClientDisplayViewType)</h4>
+  <div class="markdown level1 summary"><p>Sets visible the Display View with the specified id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetDisplayViewVisible(Guid displayViewId, ClientDisplayViewType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>Display View id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Client.ClientDisplayViewType.html">ClientDisplayViewType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Display type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_SetIddxExtendedDisplayId_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.SetIddxExtendedDisplayId*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_SetIddxExtendedDisplayId_System_Int32_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.SetIddxExtendedDisplayId(System.Int32)">SetIddxExtendedDisplayId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the dynamically generated IDDX extended display Id form the driver</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetIddxExtendedDisplayId(int extendedDisplayId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">extendedDisplayId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_TryShowSharingDialogForImage_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.TryShowSharingDialogForImage*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_TryShowSharingDialogForImage_Intel_Unite_Common_Display_SharingSelectorEventDelegate_System_Boolean_System_String_System_String_System_Byte___System_Boolean_System_Collections_Generic_List_System_Guid__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.TryShowSharingDialogForImage(Intel.Unite.Common.Display.SharingSelectorEventDelegate,System.Boolean,System.String,System.String,System.Byte[],System.Boolean,System.Collections.Generic.List{System.Guid})">TryShowSharingDialogForImage(SharingSelectorEventDelegate, Boolean, String, String, Byte[], Boolean, List&lt;Guid&gt;)</h4>
+  <div class="markdown level1 summary"><p>Show the sharing dialog to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryShowSharingDialogForImage(SharingSelectorEventDelegate callback, bool multiDisplaySupported, string title, string description, byte[] imageBytes, bool slideUp = false, List&lt;Guid&gt; displaysToPresent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.SharingSelectorEventDelegate.html">SharingSelectorEventDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback to notify the allocation result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">multiDisplaySupported</span></td>
+        <td><p>True if multi-display is supported.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">imageBytes</span></td>
+        <td><p>Image bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">slideUp</span></td>
+        <td><p>(Optional) True if the sharing dialog must be shown
+in the slide-up format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+        <td><span class="parametername">displaysToPresent</span></td>
+        <td><p>(Optional) The hub displays to pre-select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if successful, false if Sharing dialog is already in use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_TryShowSharingDialogForUserControl_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.TryShowSharingDialogForUserControl*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_TryShowSharingDialogForUserControl_Intel_Unite_Common_Display_SharingSelectorEventDelegate_System_Boolean_System_String_System_String_System_Windows_UIElement_System_Boolean_System_Collections_Generic_List_System_Guid__" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.TryShowSharingDialogForUserControl(Intel.Unite.Common.Display.SharingSelectorEventDelegate,System.Boolean,System.String,System.String,System.Windows.UIElement,System.Boolean,System.Collections.Generic.List{System.Guid})">TryShowSharingDialogForUserControl(SharingSelectorEventDelegate, Boolean, String, String, UIElement, Boolean, List&lt;Guid&gt;)</h4>
+  <div class="markdown level1 summary"><p>Tries to show the sharing dialog.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryShowSharingDialogForUserControl(SharingSelectorEventDelegate callback, bool multiDisplaySupported, string title, string description, UIElement uIControl, bool slideUp = false, List&lt;Guid&gt; displaysToPresent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.SharingSelectorEventDelegate.html">SharingSelectorEventDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback to notify the allocation result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">multiDisplaySupported</span></td>
+        <td><p>True if multi-display is supported.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Windows.UIElement</span></td>
+        <td><span class="parametername">uIControl</span></td>
+        <td><p>UI control.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">slideUp</span></td>
+        <td><p>(Optional) The slide up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+        <td><span class="parametername">displaysToPresent</span></td>
+        <td><p>(Optional) The hub displays to pre-select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_UpdateDisplays_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.UpdateDisplays*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_UpdateDisplays" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.UpdateDisplays">UpdateDisplays()</h4>
+  <div class="markdown level1 summary"><p>Updates the displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateDisplays()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Display_Client_IClientDisplayManager_UpdateTakeOverToken_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.UpdateTakeOverToken*"></a>
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_UpdateTakeOverToken_System_Boolean_Intel_Unite_Common_Display_TakeOverToken_" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.UpdateTakeOverToken(System.Boolean,Intel.Unite.Common.Display.TakeOverToken)">UpdateTakeOverToken(Boolean, TakeOverToken)</h4>
+  <div class="markdown level1 summary"><p>Updates take over token.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateTakeOverToken(bool success, TakeOverToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">success</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.TakeOverToken.html">TakeOverToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DisplaysUpdated" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DisplaysUpdated">DisplaysUpdated</h4>
+  <div class="markdown level1 summary"><p>Notifies when there is a change in the displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler DisplaysUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_DisplayViewAllocated" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.DisplayViewAllocated">DisplayViewAllocated</h4>
+  <div class="markdown level1 summary"><p>Notifies when a new DisplayView has been allocated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ClientDisplayView&gt; DisplayViewAllocated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Client.ClientDisplayView.html">ClientDisplayView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Client_IClientDisplayManager_HubDisplaysUpdated" data-uid="Intel.Unite.Common.Display.Client.IClientDisplayManager.HubDisplaysUpdated">HubDisplaysUpdated</h4>
+  <div class="markdown level1 summary"><p>Notifies when there is a change in the  hub displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;Collection&lt;PhysicalDisplay&gt;&gt; HubDisplaysUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

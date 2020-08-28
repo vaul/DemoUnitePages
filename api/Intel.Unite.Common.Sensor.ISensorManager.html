@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISensorManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISensorManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Sensor.ISensorManager">
+  
+  
+  <h1 id="Intel_Unite_Common_Sensor_ISensorManager" data-uid="Intel.Unite.Common.Sensor.ISensorManager" class="text-break">Interface ISensorManager
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a list of sensor information available in the application Intel Unite.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Sensor.html">Intel.Unite.Common.Sensor</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Sensor_ISensorManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISensorManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Sensor_ISensorManager_Get_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Get*"></a>
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_Get" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Get">Get()</h4>
+  <div class="markdown level1 summary"><p>Gets a list of all sensors, except expired ones.
+Also removes any expired sensor, and raises the event SensorRemoved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Sensor&gt; Get()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Intel.Unite.Common.Sensor.Sensor.html">Sensor</a>&gt;</td>
+        <td><p>List of all active sensors.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Sensor_ISensorManager_Get_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Get*"></a>
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_Get_System_Byte_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Get(System.Byte)">Get(Byte)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of all sensors of a specific type, except expired ones.
+Also removes any expired sensor, and raises the event SensorRemoved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Sensor&gt; Get(byte type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Intel.Unite.Common.Sensor.Sensor.html">Sensor</a>&gt;</td>
+        <td><p>List of all active sensors.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Sensor_ISensorManager_RemoveSensor_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.RemoveSensor*"></a>
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_RemoveSensor_System_String_System_Guid_System_Guid_System_Byte_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.RemoveSensor(System.String,System.Guid,System.Guid,System.Byte)">RemoveSensor(String, Guid, Guid, Byte)</h4>
+  <div class="markdown level1 summary"><p>Removes a sensor from the list of all sensors.
+Only the owner of the sensor can remove a sensor.
+All params must match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RemoveSensor(string sensorUniqueName, Guid sensorId, Guid moduleId, byte type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sensorUniqueName</span></td>
+        <td><p>Sensor unique name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sensorId</span></td>
+        <td><p>Sensor Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Sensor module Id (owner or plugin Id).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Sensor type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if removed, false if not removed. You can check the hub logs for more details.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Sensor_ISensorManager_Set_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Set*"></a>
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_Set_Intel_Unite_Common_Sensor_Sensor_" data-uid="Intel.Unite.Common.Sensor.ISensorManager.Set(Intel.Unite.Common.Sensor.Sensor)">Set(Sensor)</h4>
+  <div class="markdown level1 summary"><p>Sets a sensor to the list of all sensors.
+This overwrites all sensors that have the same: UniqueName, Id and ModuleId.
+If an exception is thrown, the values are not stored.
+If stored, raises the event SensorAdded.
+Note: It's responsibility of the owner of the sensor (ModuleId) to continually call Set to
+make sure it's sensor does not expires.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Set(Sensor sensor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Sensor.Sensor.html">Sensor</a></td>
+        <td><span class="parametername">sensor</span></td>
+        <td><p>The sensor to be stored.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Thrown when the sensor is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Sensor.InvalidSensorException.html">InvalidSensorException</a></td>
+        <td><p>Thrown when the sensor contains invalid information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_SensorAdded" data-uid="Intel.Unite.Common.Sensor.ISensorManager.SensorAdded">SensorAdded</h4>
+  <div class="markdown level1 summary"><p>Raised when a sensor is added (during Set).
+This may occur as well if a sensor was previously expired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;SensorArgs&gt; SensorAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Sensor.SensorArgs.html">SensorArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Sensor_ISensorManager_SensorRemoved" data-uid="Intel.Unite.Common.Sensor.ISensorManager.SensorRemoved">SensorRemoved</h4>
+  <div class="markdown level1 summary"><p>Raised when a sensor is removed.
+This will occur when a sensor expires as well (during Get).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;SensorArgs&gt; SensorRemoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Sensor.SensorArgs.html">SensorArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModuleRuntimeContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModuleRuntimeContext
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext">
+  
+  
+  <h1 id="Intel_Unite_Common_Context_ModuleRuntimeContext" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext" class="text-break">Class ModuleRuntimeContext
+  </h1>
+  <div class="markdown level0 summary"><p>(Serializable) a common module runtime context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
+    <div class="level2"><a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html">MarshalByRefObjectBase</a></div>
+    <div class="level3"><span class="xref">ModuleRuntimeContext</span></div>
+      <div class="level4"><a class="xref" href="Intel.Unite.Common.Context.ModulesRuntimeContext.html">ModulesRuntimeContext</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Intel.Unite.Common.Context.IModuleRuntimeContext.html">IModuleRuntimeContext</a></div>
+    <div><a class="xref" href="Intel.Unite.Common.Context.ICommonRuntimeContext.html">ICommonRuntimeContext</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html#Intel_Unite_Common_Module_Common_MarshalByRefObjectBase_LiveForever">MarshalByRefObjectBase.LiveForever</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html#Intel_Unite_Common_Module_Common_MarshalByRefObjectBase_InitializeLifetimeService">MarshalByRefObjectBase.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Context.html">Intel.Unite.Common.Context</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Context_ModuleRuntimeContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public abstract class ModuleRuntimeContext : MarshalByRefObjectBase, IModuleRuntimeContext, ICommonRuntimeContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_CalendarManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.CalendarManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_CalendarManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.CalendarManager">CalendarManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Calendar.ICalendarManager.html">ICalendarManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICalendarManager CalendarManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Calendar.ICalendarManager.html">ICalendarManager</a></td>
+        <td><p>The calendar manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_ConfigurationManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.ConfigurationManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_ConfigurationManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.ConfigurationManager">ConfigurationManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Configuration.IConfigurationManager.html">IConfigurationManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IConfigurationManager ConfigurationManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Configuration.IConfigurationManager.html">IConfigurationManager</a></td>
+        <td><p>The configuration manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_DisplayManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.DisplayManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_DisplayManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.DisplayManager">DisplayManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Display.Hub.IHubDisplayManager.html">IHubDisplayManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IHubDisplayManager DisplayManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.IHubDisplayManager.html">IHubDisplayManager</a></td>
+        <td><p>The display manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_Instance_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.Instance*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_Instance" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>Set the Instance (singleton implementation) of the class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ModuleRuntimeContext Instance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.ModuleRuntimeContext.html">ModuleRuntimeContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_KpiManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.KpiManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_KpiManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.KpiManager">KpiManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Kpi.IKpiManager.html">IKpiManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKpiManager KpiManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Kpi.IKpiManager.html">IKpiManager</a></td>
+        <td><p>The kpi manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_LafManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.LafManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_LafManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.LafManager">LafManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Ui.ILookAndFeelManager.html">ILookAndFeelManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILookAndFeelManager LafManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Ui.ILookAndFeelManager.html">ILookAndFeelManager</a></td>
+        <td><p>The laf manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_LogManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.LogManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_LogManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.LogManager">LogManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Logging.ILoggingManager.html">ILoggingManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IModuleLoggingManager LogManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Logging.IModuleLoggingManager.html">IModuleLoggingManager</a></td>
+        <td><p>The log manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_MessageSender_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.MessageSender*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_MessageSender" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.MessageSender">MessageSender</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of <a class="xref" href="Intel.Unite.Common.Command.IMessageSender.html">IMessageSender</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMessageSender MessageSender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Command.IMessageSender.html">IMessageSender</a></td>
+        <td><p>The message sender.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_MinimumUniteVersion_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.MinimumUniteVersion*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_MinimumUniteVersion" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.MinimumUniteVersion">MinimumUniteVersion</h4>
+  <div class="markdown level1 summary"><p>Minimum Unite Version allowed to run with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Version MinimumUniteVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td><p>The version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_ModuleErrorHandling_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.ModuleErrorHandling*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_ModuleErrorHandling" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.ModuleErrorHandling">ModuleErrorHandling</h4>
+  <div class="markdown level1 summary"><p>Error Handling Service for the modules to use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleErrorHandlingService ModuleErrorHandling { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Module.Common.ErrorHandling.ModuleErrorHandlingService.html">ModuleErrorHandlingService</a></td>
+        <td><p>The module error handling.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_NotificationManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.NotificationManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_NotificationManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.NotificationManager">NotificationManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Notification.INotificationManager.html">INotificationManager</a>}</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INotificationManager NotificationManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Notification.INotificationManager.html">INotificationManager</a></td>
+        <td><p>The notification manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_SessionContext_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.SessionContext*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_SessionContext" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.SessionContext">SessionContext</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Context.ISessionContext.html">ISessionContext</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISessionContext SessionContext { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.ISessionContext.html">ISessionContext</a></td>
+        <td><p>The session context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ModuleRuntimeContext_TelemetryManager_" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.TelemetryManager*"></a>
+  <h4 id="Intel_Unite_Common_Context_ModuleRuntimeContext_TelemetryManager" data-uid="Intel.Unite.Common.Context.ModuleRuntimeContext.TelemetryManager">TelemetryManager</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the runtime instance of  <a class="xref" href="Intel.Unite.Common.Telemetry.IModuleTelemetry.html">IModuleTelemetry</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IModuleTelemetry TelemetryManager { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Telemetry.IModuleTelemetry.html">IModuleTelemetry</a></td>
+        <td><p>The telemetry manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Intel.Unite.Common.Context.IModuleRuntimeContext.html">IModuleRuntimeContext</a>
+  </div>
+  <div>
+      <a class="xref" href="Intel.Unite.Common.Context.ICommonRuntimeContext.html">ICommonRuntimeContext</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

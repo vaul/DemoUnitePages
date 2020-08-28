@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISessionContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISessionContext
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Context.ISessionContext">
+  
+  
+  <h1 id="Intel_Unite_Common_Context_ISessionContext" data-uid="Intel.Unite.Common.Context.ISessionContext" class="text-break">Interface ISessionContext
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for session context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Context.html">Intel.Unite.Common.Context</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Context_ISessionContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISessionContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Context_ISessionContext_Hubs_" data-uid="Intel.Unite.Common.Context.ISessionContext.Hubs*"></a>
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_Hubs" data-uid="Intel.Unite.Common.Context.ISessionContext.Hubs">Hubs</h4>
+  <div class="markdown level1 summary"><p>Gets the hubs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;HubInfo&gt; Hubs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.HubInfo.html">HubInfo</a>&gt;</td>
+        <td><p>The hubs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ISessionContext_LockStatus_" data-uid="Intel.Unite.Common.Context.ISessionContext.LockStatus*"></a>
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_LockStatus" data-uid="Intel.Unite.Common.Context.ISessionContext.LockStatus">LockStatus</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Lock Status for the session. If set, triggers the event SessionLocked or
+SessionUnlocked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">LockStatus LockStatus { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.LockStatus.html">LockStatus</a></td>
+        <td><p>The lock status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ISessionContext_ModerationMode_" data-uid="Intel.Unite.Common.Context.ISessionContext.ModerationMode*"></a>
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_ModerationMode" data-uid="Intel.Unite.Common.Context.ISessionContext.ModerationMode">ModerationMode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Moderation mode. If set, triggers the event ModerationModeUpdated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModerationMode ModerationMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.ModerationMode.html">ModerationMode</a></td>
+        <td><p>The moderation mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ISessionContext_SessionPreviewStatus_" data-uid="Intel.Unite.Common.Context.ISessionContext.SessionPreviewStatus*"></a>
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_SessionPreviewStatus" data-uid="Intel.Unite.Common.Context.ISessionContext.SessionPreviewStatus">SessionPreviewStatus</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the PreviewStatus. If set, triggers the event PreviewStatusUpdated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionPreviewStatus SessionPreviewStatus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.SessionPreviewStatus.html">SessionPreviewStatus</a></td>
+        <td><p>The moderation mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Context_ISessionContext_Users_" data-uid="Intel.Unite.Common.Context.ISessionContext.Users*"></a>
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_Users" data-uid="Intel.Unite.Common.Context.ISessionContext.Users">Users</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the users.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;UserInfo&gt; Users { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a>&gt;</td>
+        <td><p>The users.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_ModerationModeUpdated" data-uid="Intel.Unite.Common.Context.ISessionContext.ModerationModeUpdated">ModerationModeUpdated</h4>
+  <div class="markdown level1 summary"><p>Notifies when the moderation mode has been changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ModerationMode&gt; ModerationModeUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.ModerationMode.html">ModerationMode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_NewHubsList" data-uid="Intel.Unite.Common.Context.ISessionContext.NewHubsList">NewHubsList</h4>
+  <div class="markdown level1 summary"><p>Notifies when a the entire Hubs list has been cleared and updated again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler NewHubsList</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_NewUsersList" data-uid="Intel.Unite.Common.Context.ISessionContext.NewUsersList">NewUsersList</h4>
+  <div class="markdown level1 summary"><p>Notifies when a the entire Users list has been cleared and updated again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler NewUsersList</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_PreviewStatusUpdated" data-uid="Intel.Unite.Common.Context.ISessionContext.PreviewStatusUpdated">PreviewStatusUpdated</h4>
+  <div class="markdown level1 summary"><p>Notifies when the PreviewStatus has been updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;SessionPreviewStatus&gt; PreviewStatusUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Context.SessionPreviewStatus.html">SessionPreviewStatus</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_SessionLocked" data-uid="Intel.Unite.Common.Context.ISessionContext.SessionLocked">SessionLocked</h4>
+  <div class="markdown level1 summary"><p>Notifies when the session has been Locked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler SessionLocked</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_SessionUnlocked" data-uid="Intel.Unite.Common.Context.ISessionContext.SessionUnlocked">SessionUnlocked</h4>
+  <div class="markdown level1 summary"><p>Notifies when the session has been Unlocked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler SessionUnlocked</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_UserAdded" data-uid="Intel.Unite.Common.Context.ISessionContext.UserAdded">UserAdded</h4>
+  <div class="markdown level1 summary"><p>Notifies when a user has been added to the Users list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;UserInfo&gt; UserAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_UserRemoved" data-uid="Intel.Unite.Common.Context.ISessionContext.UserRemoved">UserRemoved</h4>
+  <div class="markdown level1 summary"><p>Notifies when a user has been removed from the Users list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;UserInfo&gt; UserRemoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Context_ISessionContext_UserUpdated" data-uid="Intel.Unite.Common.Context.ISessionContext.UserUpdated">UserUpdated</h4>
+  <div class="markdown level1 summary"><p>Notifies when a user in the Users list has been updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;UserInfo&gt; UserUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

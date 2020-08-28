@@ -1,0 +1,599 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IModuleTelemetry
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IModuleTelemetry
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry">
+  
+  
+  <h1 id="Intel_Unite_Common_Telemetry_IModuleTelemetry" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry" class="text-break">Interface IModuleTelemetry
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for module telemetry.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Telemetry.html">Intel.Unite.Common.Telemetry</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IModuleTelemetry</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_EndSession_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.EndSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_EndSession_System_Object_System_EventArgs_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.EndSession(System.Object,System.EventArgs)">EndSession(Object, EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Ends a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndSession(object sender, EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Source of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogAnnotation_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogAnnotation*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogAnnotation_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogAnnotation(System.Guid)">LogAnnotation(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs an annotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogAnnotation(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogExtendedDisplayStart_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogExtendedDisplayStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogExtendedDisplayStart_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogExtendedDisplayStart(System.Guid)">LogExtendedDisplayStart(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs extended display start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogExtendedDisplayStart(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogFileShared_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogFileShared*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogFileShared_System_Guid_System_String_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogFileShared(System.Guid,System.String)">LogFileShared(Guid, String)</h4>
+  <div class="markdown level1 summary"><p>Logs file shared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogFileShared(Guid moduleId, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Filename of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogPresentingStart_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogPresentingStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogPresentingStart_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogPresentingStart(System.Guid)">LogPresentingStart(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs presenting start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPresentingStart(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogPresentingStop_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogPresentingStop*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogPresentingStop_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogPresentingStop(System.Guid)">LogPresentingStop(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs presenting stop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPresentingStop(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogRemoteView_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogRemoteView*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogRemoteView_System_Guid_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogRemoteView(System.Guid,System.Guid)">LogRemoteView(Guid, Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs remote view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogRemoteView(Guid moduleId, Guid client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>The client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogSimultaneousScreenSharing_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogSimultaneousScreenSharing*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogSimultaneousScreenSharing_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogSimultaneousScreenSharing(System.Guid)">LogSimultaneousScreenSharing(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs simultaneous screen sharing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogSimultaneousScreenSharing(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogTelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogTelemetryEvent*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogTelemetryEvent_System_Guid_System_Collections_Generic_List_System_Collections_Generic_KeyValuePair_System_String_System_String___" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogTelemetryEvent(System.Guid,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})">LogTelemetryEvent(Guid, List&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs telemetry event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogTelemetryEvent(Guid moduleId, List&lt;KeyValuePair&lt;string, string&gt;&gt; parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>Options for controlling the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogTouchBack_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogTouchBack*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_LogTouchBack_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.LogTouchBack(System.Guid)">LogTouchBack(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs a touchBack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogTouchBack(Guid moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_OnEndSession_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.OnEndSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_OnEndSession_System_Object_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.OnEndSession(System.Object,Intel.Unite.Common.Core.UserInfo)">OnEndSession(Object, UserInfo)</h4>
+  <div class="markdown level1 summary"><p>Executes the end session action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnEndSession(object sender, UserInfo userInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Source of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>Information describing the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_OnStartSession_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.OnStartSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_OnStartSession_System_Object_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.OnStartSession(System.Object,Intel.Unite.Common.Core.UserInfo)">OnStartSession(Object, UserInfo)</h4>
+  <div class="markdown level1 summary"><p>Executes the start session action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnStartSession(object sender, UserInfo userInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Source of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>Information describing the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_SetPresentingStartTechnology_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.SetPresentingStartTechnology*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_SetPresentingStartTechnology_Intel_Unite_Common_Telemetry_TelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.SetPresentingStartTechnology(Intel.Unite.Common.Telemetry.TelemetryEvent)">SetPresentingStartTechnology(TelemetryEvent)</h4>
+  <div class="markdown level1 summary"><p>Sets presenting start technology.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPresentingStartTechnology(TelemetryEvent telemetryEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Telemetry.TelemetryEvent.html">TelemetryEvent</a></td>
+        <td><span class="parametername">telemetryEvent</span></td>
+        <td><p>The telemetry event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_SetPresentingStartType_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.SetPresentingStartType*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_SetPresentingStartType_Intel_Unite_Common_Telemetry_TelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.SetPresentingStartType(Intel.Unite.Common.Telemetry.TelemetryEvent)">SetPresentingStartType(TelemetryEvent)</h4>
+  <div class="markdown level1 summary"><p>Sets presenting start type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPresentingStartType(TelemetryEvent telemetryEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Telemetry.TelemetryEvent.html">TelemetryEvent</a></td>
+        <td><span class="parametername">telemetryEvent</span></td>
+        <td><p>The telemetry event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_IModuleTelemetry_StartSession_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.StartSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_IModuleTelemetry_StartSession_System_Object_System_EventArgs_" data-uid="Intel.Unite.Common.Telemetry.IModuleTelemetry.StartSession(System.Object,System.EventArgs)">StartSession(Object, EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Starts a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartSession(object sender, EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Source of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

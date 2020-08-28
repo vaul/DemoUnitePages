@@ -1,0 +1,1741 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IHubDisplayManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IHubDisplayManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager">
+  
+  
+  <h1 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager" class="text-break">Interface IHubDisplayManager
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for the Display Manager in charge of orchestrating the UI content displayed in
+the Hub.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Display.Hub.html">Intel.Unite.Common.Display.Hub</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IHubDisplayManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AvailableDisplays_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AvailableDisplays*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AvailableDisplays" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AvailableDisplays">AvailableDisplays</h4>
+  <div class="markdown level1 summary"><p>Gets a list of the available physicals displays found in the device. These may limited
+from configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;PhysicalDisplay&gt; AvailableDisplays { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;</td>
+        <td><p>The available displays.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DisplayIdsWithActivePartialBackground_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DisplayIdsWithActivePartialBackground*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DisplayIdsWithActivePartialBackground" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DisplayIdsWithActivePartialBackground">DisplayIdsWithActivePartialBackground</h4>
+  <div class="markdown level1 summary"><p>Gets the DisplayIds with active (allocated) PartialBackground</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;Guid&gt; DisplayIdsWithActivePartialBackground { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ToastMessageMaxVisibilityTime_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ToastMessageMaxVisibilityTime*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ToastMessageMaxVisibilityTime" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ToastMessageMaxVisibilityTime">ToastMessageMaxVisibilityTime</h4>
+  <div class="markdown level1 summary"><p>Gets the Maximum Visibility Time (in seconds) for the ToastMessage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ToastMessageMaxVisibilityTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The toast message maximum visibility time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ActivateLocalAnnotationWindow_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ActivateLocalAnnotationWindow*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ActivateLocalAnnotationWindow_System_Boolean_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ActivateLocalAnnotationWindow(System.Boolean,System.Guid)">ActivateLocalAnnotationWindow(Boolean, Guid)</h4>
+  <div class="markdown level1 summary"><p>Activates/Deactivates local annotation window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ActivateLocalAnnotationWindow(bool active, Guid displayViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td><p>True if it local annotation should be activated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>The display Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_Intel_Unite_Common_Display_UniteImage_Intel_Unite_Common_Display_Hub_HubAllocationInfo_System_Action_Intel_Unite_Common_Display_Hub_HubAllocationResult__" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync(Intel.Unite.Common.Display.UniteImage,Intel.Unite.Common.Display.Hub.HubAllocationInfo,System.Action{Intel.Unite.Common.Display.Hub.HubAllocationResult})">AllocateUiInHubDisplayAsync(UniteImage, HubAllocationInfo, Action&lt;HubAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Allocated user interface in hub display asynchronous.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllocateUiInHubDisplayAsync(UniteImage image, HubAllocationInfo hubAllocationInfo, Action&lt;HubAllocationResult&gt; allocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.UniteImage.html">UniteImage</a></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>Image to show in the toast message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationInfo.html">HubAllocationInfo</a></td>
+        <td><span class="parametername">hubAllocationInfo</span></td>
+        <td><p>Information about the allocation request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationResult.html">HubAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallback</span></td>
+        <td><p>The allocate call back.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_Intel_Unite_Common_Module_Common_MarshalNativeHandleContract_Intel_Unite_Common_Display_Hub_HubAllocationInfo_System_Action_Intel_Unite_Common_Display_Hub_HubAllocationResult__Intel_Unite_Common_Display_GetScreenShot_System_Boolean_System_Boolean_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync(Intel.Unite.Common.Module.Common.MarshalNativeHandleContract,Intel.Unite.Common.Display.Hub.HubAllocationInfo,System.Action{Intel.Unite.Common.Display.Hub.HubAllocationResult},Intel.Unite.Common.Display.GetScreenShot,System.Boolean,System.Boolean)">AllocateUiInHubDisplayAsync(MarshalNativeHandleContract, HubAllocationInfo, Action&lt;HubAllocationResult&gt;, GetScreenShot, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that tries to allocate a UI element in a HubDisplay with the
+specified HubAllocationInfo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllocateUiInHubDisplayAsync(MarshalNativeHandleContract uiElement, HubAllocationInfo hubAllocationInfo, Action&lt;HubAllocationResult&gt; allocateCallback, GetScreenShot getScreenShotDelegate = null, bool createAnnotationWindow = false, bool allowRemoteAnnotations = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Module.Common.MarshalNativeHandleContract.html">MarshalNativeHandleContract</a></td>
+        <td><span class="parametername">uiElement</span></td>
+        <td><p>UI element to be allocated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationInfo.html">HubAllocationInfo</a></td>
+        <td><span class="parametername">hubAllocationInfo</span></td>
+        <td><p>Information about the allocation request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationResult.html">HubAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallback</span></td>
+        <td><p>Function that gets notified with the result of the
+allocation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.GetScreenShot.html">GetScreenShot</a></td>
+        <td><span class="parametername">getScreenShotDelegate</span></td>
+        <td><p>(Optional) Delegate to the function that will return
+the current screen shot of the view.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createAnnotationWindow</span></td>
+        <td><p>(Optional) True if an annotation window should be
+created. The annotation id will be returned in the.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowRemoteAnnotations</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_AllocateUiInHubDisplayAsync_System_Windows_FrameworkElement_Intel_Unite_Common_Display_Hub_HubAllocationInfo_System_Action_Intel_Unite_Common_Display_Hub_HubAllocationResult__Intel_Unite_Common_Display_GetScreenShot_System_Boolean_System_Boolean_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.AllocateUiInHubDisplayAsync(System.Windows.FrameworkElement,Intel.Unite.Common.Display.Hub.HubAllocationInfo,System.Action{Intel.Unite.Common.Display.Hub.HubAllocationResult},Intel.Unite.Common.Display.GetScreenShot,System.Boolean,System.Boolean)">AllocateUiInHubDisplayAsync(FrameworkElement, HubAllocationInfo, Action&lt;HubAllocationResult&gt;, GetScreenShot, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that tries to allocate a UI element in a HubDisplay with the
+specified HubAllocationInfo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllocateUiInHubDisplayAsync(FrameworkElement uiElement, HubAllocationInfo hubAllocationInfo, Action&lt;HubAllocationResult&gt; allocateCallback, GetScreenShot getScreenShotDelegate = null, bool createAnnotationWindow = false, bool allowRemoteAnnotations = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Windows.FrameworkElement</span></td>
+        <td><span class="parametername">uiElement</span></td>
+        <td><p>UI element to be allocated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationInfo.html">HubAllocationInfo</a></td>
+        <td><span class="parametername">hubAllocationInfo</span></td>
+        <td><p>Information about the allocation request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationResult.html">HubAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallback</span></td>
+        <td><p>Function to notify the result of the allocation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.GetScreenShot.html">GetScreenShot</a></td>
+        <td><span class="parametername">getScreenShotDelegate</span></td>
+        <td><p>(Optional) Delegate to the function that will return
+the current screen shot of the view.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createAnnotationWindow</span></td>
+        <td><p>(Optional) True if an annotation window should be
+created. The annotation id will be returned in the.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowRemoteAnnotations</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ChangeColorForLocalAnnotationWindow_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ChangeColorForLocalAnnotationWindow*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ChangeColorForLocalAnnotationWindow_System_Int32_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ChangeColorForLocalAnnotationWindow(System.Int32,System.Guid)">ChangeColorForLocalAnnotationWindow(Int32, Guid)</h4>
+  <div class="markdown level1 summary"><p>Changes color for a local annotation window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ChangeColorForLocalAnnotationWindow(int color, Guid displayViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Color.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>DisplayView identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ChangeFadeOutForLocalAnnotationWindow_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ChangeFadeOutForLocalAnnotationWindow*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ChangeFadeOutForLocalAnnotationWindow_System_Boolean_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ChangeFadeOutForLocalAnnotationWindow(System.Boolean,System.Guid)">ChangeFadeOutForLocalAnnotationWindow(Boolean, Guid)</h4>
+  <div class="markdown level1 summary"><p>Changes the fade for a local annotation window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ChangeFadeOutForLocalAnnotationWindow(bool fadeOut, Guid displayViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">fadeOut</span></td>
+        <td><p>True if annotations should fadeout.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>DisplayView identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_CloseMenu_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.CloseMenu*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_CloseMenu_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.CloseMenu(System.Guid)">CloseMenu(Guid)</h4>
+  <div class="markdown level1 summary"><p>Closes the Menu UI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CloseMenu(Guid physicalDisplayId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplayId</span></td>
+        <td><p>Th.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DeallocateUiFromHubDisplayAsync_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DeallocateUiFromHubDisplayAsync*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DeallocateUiFromHubDisplayAsync_Intel_Unite_Common_Display_DisplayView_System_Action_Intel_Unite_Common_Display_Hub_HubAllocationResult__" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DeallocateUiFromHubDisplayAsync(Intel.Unite.Common.Display.DisplayView,System.Action{Intel.Unite.Common.Display.Hub.HubAllocationResult})">DeallocateUiFromHubDisplayAsync(DisplayView, Action&lt;HubAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process that tries to deallocate a UI element in a HubDisplay that
+corresponds to the specified DisplayView.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeallocateUiFromHubDisplayAsync(DisplayView allocatedDisplayView, Action&lt;HubAllocationResult&gt; deallocateCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a></td>
+        <td><span class="parametername">allocatedDisplayView</span></td>
+        <td><p>Contains all information related to an allocated UI
+request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationResult.html">HubAllocationResult</a>&gt;</td>
+        <td><span class="parametername">deallocateCallback</span></td>
+        <td><p>Function that gets notified with the result of the
+deallocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DrawAnnotation_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DrawAnnotation*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DrawAnnotation_System_Guid_Intel_Unite_Common_Display_Stroke_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DrawAnnotation(System.Guid,Intel.Unite.Common.Display.Stroke,System.Guid)">DrawAnnotation(Guid, Stroke, Guid)</h4>
+  <div class="markdown level1 summary"><p>Draws annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DrawAnnotation(Guid displayViewId, Stroke stroke, Guid requesterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>The display view Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Stroke.html">Stroke</a></td>
+        <td><span class="parametername">stroke</span></td>
+        <td><p>The stroke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requesterId</span></td>
+        <td><p>The requester Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GenerateTakeOverToken_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GenerateTakeOverToken*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GenerateTakeOverToken_Intel_Unite_Common_Display_TakeOverToken__" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GenerateTakeOverToken(Intel.Unite.Common.Display.TakeOverToken@)">GenerateTakeOverToken(out TakeOverToken)</h4>
+  <div class="markdown level1 summary"><p>Generates take over token.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool GenerateTakeOverToken(out TakeOverToken takeOverToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.TakeOverToken.html">TakeOverToken</a></td>
+        <td><span class="parametername">takeOverToken</span></td>
+        <td><p>[out].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews">GetAllDisplayViews()</h4>
+  <div class="markdown level1 summary"><p>Gets all display views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;DisplayView&gt; GetAllDisplayViews()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td><p>A collection of display views.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_Intel_Unite_Common_Display_Hub_HubDisplayViewType_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews(Intel.Unite.Common.Display.Hub.HubDisplayViewType)">GetAllDisplayViews(HubDisplayViewType)</h4>
+  <div class="markdown level1 summary"><p>Gets all display views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;DisplayView&gt; GetAllDisplayViews(HubDisplayViewType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubDisplayViewType.html">HubDisplayViewType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The display view type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td><p>A collection of display views.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews(System.Guid)">GetAllDisplayViews(Guid)</h4>
+  <div class="markdown level1 summary"><p>Gets all display views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;DisplayView&gt; GetAllDisplayViews(Guid physicalDisplay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplay</span></td>
+        <td><p>The physical display identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td><p>A collection of display views.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetAllDisplayViews_System_Guid_Intel_Unite_Common_Display_Hub_HubDisplayViewType_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetAllDisplayViews(System.Guid,Intel.Unite.Common.Display.Hub.HubDisplayViewType)">GetAllDisplayViews(Guid, HubDisplayViewType)</h4>
+  <div class="markdown level1 summary"><p>Gets all display views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Collection&lt;DisplayView&gt; GetAllDisplayViews(Guid physicalDisplay, HubDisplayViewType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplay</span></td>
+        <td><p>The physical display identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubDisplayViewType.html">HubDisplayViewType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The display view type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td><p>A collection of display views.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetDisplayView_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetDisplayView*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetDisplayView_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetDisplayView(System.Guid)">GetDisplayView(Guid)</h4>
+  <div class="markdown level1 summary"><p>Gets a display view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DisplayView GetDisplayView(Guid displayViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a></td>
+        <td><p>The display view.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetDisplayViewScreenShot_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetDisplayViewScreenShot*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_GetDisplayViewScreenShot_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.GetDisplayViewScreenShot(System.Guid)">GetDisplayViewScreenShot(Guid)</h4>
+  <div class="markdown level1 summary"><p>Gets a display view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte[] GetDisplayViewScreenShot(Guid displayViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>An array of byte.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_HideHubScreen_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.HideHubScreen*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_HideHubScreen_System_Guid_System_Boolean_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.HideHubScreen(System.Guid,System.Boolean)">HideHubScreen(Guid, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Hides the hub screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HideHubScreen(Guid physicalDisplayId, bool showAuthView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplayId</span></td>
+        <td><p>The display identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showAuthView</span></td>
+        <td><p>True if the auth view layer should be shown</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_OpenMenu_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.OpenMenu*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_OpenMenu_System_Guid_Intel_Unite_Common_Display_Hub_HubDisplayMenuView_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.OpenMenu(System.Guid,Intel.Unite.Common.Display.Hub.HubDisplayMenuView)">OpenMenu(Guid, HubDisplayMenuView)</h4>
+  <div class="markdown level1 summary"><p>Opens the Menu UI in the specified HubDisplayMenuView.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OpenMenu(Guid physicalDisplayId, HubDisplayMenuView menuView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplayId</span></td>
+        <td><p>Th.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.Hub.HubDisplayMenuView.html">HubDisplayMenuView</a></td>
+        <td><span class="parametername">menuView</span></td>
+        <td><p>The menu view.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_RegisterPresentationWindow_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.RegisterPresentationWindow*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_RegisterPresentationWindow_System_IntPtr_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.RegisterPresentationWindow(System.IntPtr,System.Guid)">RegisterPresentationWindow(IntPtr, Guid)</h4>
+  <div class="markdown level1 summary"><p>Registers the presentation window to be handled by the window manager (layering)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RegisterPresentationWindow(IntPtr windowHandle, Guid displayId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">windowHandle</span></td>
+        <td><p>The window handle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>The display identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ResetDisplays_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ResetDisplays*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ResetDisplays" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ResetDisplays">ResetDisplays()</h4>
+  <div class="markdown level1 summary"><p>De-allocates all views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ResetDisplays()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if all views were deallocated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ShowAllocatedUi_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ShowAllocatedUi*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ShowAllocatedUi_Intel_Unite_Common_Display_DisplayView_Intel_Unite_Common_Display_DisplayView_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ShowAllocatedUi(Intel.Unite.Common.Display.DisplayView,Intel.Unite.Common.Display.DisplayView)">ShowAllocatedUi(DisplayView, DisplayView)</h4>
+  <div class="markdown level1 summary"><p>Show ribbon form specific framework element. If element doesn't have ribbon, ribbon will
+be empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ShowAllocatedUi(DisplayView displayView, DisplayView ribbon = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a></td>
+        <td><span class="parametername">displayView</span></td>
+        <td><p>Presentation View.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a></td>
+        <td><span class="parametername">ribbon</span></td>
+        <td><p>(Optional) Ribbon View.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ShowHubScreen_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ShowHubScreen*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ShowHubScreen_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ShowHubScreen(System.Guid)">ShowHubScreen(Guid)</h4>
+  <div class="markdown level1 summary"><p>Shows the hub screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowHubScreen(Guid physicalDisplayId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">physicalDisplayId</span></td>
+        <td><p>The display identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TakeOver_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TakeOver*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TakeOver_System_Guid_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TakeOver(System.Guid,System.Guid)">TakeOver(Guid, Guid)</h4>
+  <div class="markdown level1 summary"><p>Performs a take over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TakeOver(Guid displayViewId, Guid takeOverToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayViewId</span></td>
+        <td><p>The DisplayView identifier. It must be a valid
+PresentationView.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">takeOverToken</span></td>
+        <td><p>A valid take over token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisFromFaultyModule_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisFromFaultyModule*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisFromFaultyModule_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisFromFaultyModule(System.Guid)">TryDeallocateUisFromFaultyModule(Guid)</h4>
+  <div class="markdown level1 summary"><p>Tries to deallocate all the UI elements found in all the HubDisplays that correspond to
+the specified OwnerId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryDeallocateUisFromFaultyModule(Guid ownerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">ownerId</span></td>
+        <td><p>OwnerId for the UI elements to deallocate. The OwnerId is the Id of
+the source module that requested the allocation of a UI element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if deallocation succeeded. False if fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisFromFualtyModule_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisFromFualtyModule*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisFromFualtyModule_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisFromFualtyModule(System.Guid)">TryDeallocateUisFromFualtyModule(Guid)</h4>
+  <div class="markdown level1 summary"><p>Tries to deallocate all the UI elements found in all the HubDisplays that correspond to
+the specified OwnerId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced with TryDeallocateUisFromFaultyModule&quot;, true)]
+bool TryDeallocateUisFromFualtyModule(Guid ownerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">ownerId</span></td>
+        <td><p>OwnerId for the UI elements to deallocate. The OwnerId is the Id of
+the source module that requested the allocation of a UI element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if deallocation succeeded. False if fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisOfModule_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisOfModule*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryDeallocateUisOfModule_System_Guid_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryDeallocateUisOfModule(System.Guid)">TryDeallocateUisOfModule(Guid)</h4>
+  <div class="markdown level1 summary"><p>Tries to deallocate all the UI elements found in all the HubDisplays that correspond to
+the specified OwnerId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryDeallocateUisOfModule(Guid moduleOwnerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleOwnerId</span></td>
+        <td><p>OwnerId for the UI elements to deallocate. The OwnerId is the
+Id of the source module that requested the allocation of a UI
+element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if deallocation succeeded. False if fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryShowToastMessage_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryShowToastMessage*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryShowToastMessage_System_String_System_Int32_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryShowToastMessage(System.String,System.Int32)">TryShowToastMessage(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Tries to show a toast message for X amount of time in all the Hub displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryShowToastMessage(string text, int visibilityTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Message to show in the toast message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">visibilityTime</span></td>
+        <td><p>Amount of time (in seconds) in which the toast message will
+be visible. The property ToastMessageMaxVisibilityTime is the
+maximum value, anything higher will take the value of
+ToastMessageMaxVisibilityTime.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if toast message was shown; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryShowToastMessage_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryShowToastMessage*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_TryShowToastMessage_System_String_System_Int32_System_Windows_Media_Imaging_BitmapImage_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.TryShowToastMessage(System.String,System.Int32,System.Windows.Media.Imaging.BitmapImage)">TryShowToastMessage(String, Int32, BitmapImage)</h4>
+  <div class="markdown level1 summary"><p>Tries to show a toast message for X amount of time in all the Hub displays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryShowToastMessage(string text, int visibilityTime, BitmapImage image)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Message to show in the toast message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">visibilityTime</span></td>
+        <td><p>Amount of time (in seconds) in which the toast message will
+be visible. The property ToastMessageMaxVisibilityTime is the
+maximum value, anything higher will take the value of
+ToastMessageMaxVisibilityTime.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Windows.Media.Imaging.BitmapImage</span></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>Image to show in the toast message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if toast message was shown; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_UpdateAllowRemoteAnnotations_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.UpdateAllowRemoteAnnotations*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_UpdateAllowRemoteAnnotations_System_Guid_System_Boolean_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.UpdateAllowRemoteAnnotations(System.Guid,System.Boolean)">UpdateAllowRemoteAnnotations(Guid, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Update allow remote annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool UpdateAllowRemoteAnnotations(Guid displayId, bool allowAnnotations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowAnnotations</span></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it succeeds, false if it fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_UpdateUiImage_" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.UpdateUiImage*"></a>
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_UpdateUiImage_Intel_Unite_Common_Display_UniteImage_Intel_Unite_Common_Display_DisplayView_System_Action_Intel_Unite_Common_Display_Hub_HubAllocationResult__" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.UpdateUiImage(Intel.Unite.Common.Display.UniteImage,Intel.Unite.Common.Display.DisplayView,System.Action{Intel.Unite.Common.Display.Hub.HubAllocationResult})">UpdateUiImage(UniteImage, DisplayView, Action&lt;HubAllocationResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates the user interface image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateUiImage(UniteImage imgae, DisplayView displayView, Action&lt;HubAllocationResult&gt; allocateCallBack)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.UniteImage.html">UniteImage</a></td>
+        <td><span class="parametername">imgae</span></td>
+        <td><p>The imgae.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a></td>
+        <td><span class="parametername">displayView</span></td>
+        <td><p>Presentation View.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.Hub.HubAllocationResult.html">HubAllocationResult</a>&gt;</td>
+        <td><span class="parametername">allocateCallBack</span></td>
+        <td><p>The allocate call back.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DisconnectAllEndSession" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DisconnectAllEndSession">DisconnectAllEndSession</h4>
+  <div class="markdown level1 summary"><p>Notifies when the user clicks the DisconnectAllEndSession button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler DisconnectAllEndSession</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_DisplaysChanged" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.DisplaysChanged">DisplaysChanged</h4>
+  <div class="markdown level1 summary"><p>Event raised when there is a change in the displays (including presentation's changes)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;Collection&lt;PhysicalDisplay&gt;&gt; DisplaysChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.Collections.ObjectModel.Collection</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_PartialBackgroundActive" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.PartialBackgroundActive">PartialBackgroundActive</h4>
+  <div class="markdown level1 summary"><p>Notifies when there is a PartialBackgroundActive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PhysicalDisplay&gt; PartialBackgroundActive</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_PartialBackgroundInactive" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.PartialBackgroundInactive">PartialBackgroundInactive</h4>
+  <div class="markdown level1 summary"><p>Notifies when there is a PartialBackground Inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PhysicalDisplay&gt; PartialBackgroundInactive</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.PhysicalDisplay.html">PhysicalDisplay</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ViewAllocated" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ViewAllocated">ViewAllocated</h4>
+  <div class="markdown level1 summary"><p>Event to be raised whenever there is a new allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;DisplayView&gt; ViewAllocated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ViewDeallocated" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ViewDeallocated">ViewDeallocated</h4>
+  <div class="markdown level1 summary"><p>Event to be raised whenever a view is deallocated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;Guid&gt; ViewDeallocated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Intel_Unite_Common_Display_Hub_IHubDisplayManager_ViewUpdated" data-uid="Intel.Unite.Common.Display.Hub.IHubDisplayManager.ViewUpdated">ViewUpdated</h4>
+  <div class="markdown level1 summary"><p>Event to be raised whenever a view is updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;DisplayView&gt; ViewUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Intel.Unite.Common.Display.DisplayView.html">DisplayView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

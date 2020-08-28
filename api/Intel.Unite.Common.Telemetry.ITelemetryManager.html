@@ -1,0 +1,1117 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITelemetryManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITelemetryManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager">
+  
+  
+  <h1 id="Intel_Unite_Common_Telemetry_ITelemetryManager" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager" class="text-break">Interface ITelemetryManager
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for several methods to log events. All data should be saved on a database and
+send to the ranger. Optionally it could be echoed on a file.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Telemetry.html">Intel.Unite.Common.Telemetry</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Telemetry_ITelemetryManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITelemetryManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_CheckMonthlyEvents_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.CheckMonthlyEvents*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_CheckMonthlyEvents" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.CheckMonthlyEvents">CheckMonthlyEvents()</h4>
+  <div class="markdown level1 summary"><p>Collects collections of data. Triggered once every month.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CheckMonthlyEvents()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_EndSession_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.EndSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_EndSession_System_Object_System_EventArgs_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.EndSession(System.Object,System.EventArgs)">EndSession(Object, EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Handler for a session ends.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndSession(object sender, EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Object sender.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAnnotation_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAnnotation*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAnnotation" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAnnotation">LogAnnotation()</h4>
+  <div class="markdown level1 summary"><p>Logs  when an annotation has been loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogAnnotation()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAvgDataReceived_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAvgDataReceived*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAvgDataReceived_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAvgDataReceived(System.Double)">LogAvgDataReceived(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs average data received (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogAvgDataReceived(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Avg bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAvgDataSent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAvgDataSent*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogAvgDataSent_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogAvgDataSent(System.Double)">LogAvgDataSent(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs average data sent (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogAvgDataSent(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Avg bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientConnectionStart_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientConnectionStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientConnectionStart_System_Guid_Intel_Unite_Common_Context_Os_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientConnectionStart(System.Guid,Intel.Unite.Common.Context.Os)">LogClientConnectionStart(Guid, Os)</h4>
+  <div class="markdown level1 summary"><p>Logs client connection start./</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogClientConnectionStart(Guid userId, Os operativeSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>User Identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.Os.html">Os</a></td>
+        <td><span class="parametername">operativeSystem</span></td>
+        <td><p>The operative system.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientConnectionStop_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientConnectionStop*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientConnectionStop_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientConnectionStop(System.Guid)">LogClientConnectionStop(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs when a client disconnects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogClientConnectionStop(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>User Identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientForcedToStartPresenting_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientForcedToStartPresenting*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientForcedToStartPresenting_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientForcedToStartPresenting(System.Guid)">LogClientForcedToStartPresenting(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs when a client is previewed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogClientForcedToStartPresenting(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientForcedToStopPresenting_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientForcedToStopPresenting*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientForcedToStopPresenting_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientForcedToStopPresenting(System.Guid)">LogClientForcedToStopPresenting(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs when a client is previewed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogClientForcedToStopPresenting(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientPreviewed_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientPreviewed*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogClientPreviewed_System_Guid_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogClientPreviewed(System.Guid)">LogClientPreviewed(Guid)</h4>
+  <div class="markdown level1 summary"><p>Logs when a client is previewed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogClientPreviewed(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogConnectingThroughMeetingId_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogConnectingThroughMeetingId*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogConnectingThroughMeetingId" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogConnectingThroughMeetingId">LogConnectingThroughMeetingId()</h4>
+  <div class="markdown level1 summary"><p>Logs when a user is connected using meetingId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogConnectingThroughMeetingId()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogConnectingThroughPin_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogConnectingThroughPin*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogConnectingThroughPin" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogConnectingThroughPin">LogConnectingThroughPin()</h4>
+  <div class="markdown level1 summary"><p>Logs when a user is connected using a pin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogConnectingThroughPin()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogExtendedDisplayStart_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogExtendedDisplayStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogExtendedDisplayStart" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogExtendedDisplayStart">LogExtendedDisplayStart()</h4>
+  <div class="markdown level1 summary"><p>Logs when extended display starts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogExtendedDisplayStart()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogExtendedDisplayStop_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogExtendedDisplayStop*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogExtendedDisplayStop" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogExtendedDisplayStop">LogExtendedDisplayStop()</h4>
+  <div class="markdown level1 summary"><p>Logs when extended display stops.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogExtendedDisplayStop()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogLockMeetingStart_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogLockMeetingStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogLockMeetingStart" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogLockMeetingStart">LogLockMeetingStart()</h4>
+  <div class="markdown level1 summary"><p>Logs when the lock meeting starts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogLockMeetingStart()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogLockMeetingStop_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogLockMeetingStop*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogLockMeetingStop" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogLockMeetingStop">LogLockMeetingStop()</h4>
+  <div class="markdown level1 summary"><p>Logs when the lock meeting stops.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogLockMeetingStop()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMaxDataReceived_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMaxDataReceived*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMaxDataReceived_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMaxDataReceived(System.Double)">LogMaxDataReceived(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs maximum data received (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMaxDataReceived(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Max bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMaxDataSent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMaxDataSent*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMaxDataSent_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMaxDataSent(System.Double)">LogMaxDataSent(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs maximum data sent (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMaxDataSent(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Max bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryAvgUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryAvgUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryAvgUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryAvgUsage(System.Double)">LogMemoryAvgUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs average memory usage on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMemoryAvgUsage(double percentage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>Avg memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryMaxUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryMaxUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryMaxUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryMaxUsage(System.Double)">LogMemoryMaxUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs maximum memory usage on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMemoryMaxUsage(double memory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">memory</span></td>
+        <td><p>Max memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryMinUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryMinUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMemoryMinUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMemoryMinUsage(System.Double)">LogMemoryMinUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs minimum memory usage on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMemoryMinUsage(double percentage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>Min memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMinDataReceived_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMinDataReceived*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMinDataReceived_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMinDataReceived(System.Double)">LogMinDataReceived(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs minimum data received (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMinDataReceived(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Min bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMinDataSent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMinDataSent*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogMinDataSent_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogMinDataSent(System.Double)">LogMinDataSent(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs minimum data sent (Network) on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogMinDataSent(double bytesPerSecond)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bytesPerSecond</span></td>
+        <td><p>Min bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogModerationMode_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogModerationMode*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogModerationMode_Intel_Unite_Common_Core_ModerationMode_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogModerationMode(Intel.Unite.Common.Core.ModerationMode)">LogModerationMode(ModerationMode)</h4>
+  <div class="markdown level1 summary"><p>Logs when the moderation mode is set. Includes mode data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogModerationMode(ModerationMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.ModerationMode.html">ModerationMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The mode that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPacketDrops_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPacketDrops*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPacketDrops_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPacketDrops(System.Double)">LogPacketDrops(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs total of packets drop on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPacketDrops(double totalPackets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">totalPackets</span></td>
+        <td><p>Avg bytes/second.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPluginInstalled_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPluginInstalled*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPluginInstalled_System_String_System_Version_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPluginInstalled(System.String,System.Version)">LogPluginInstalled(String, Version)</h4>
+  <div class="markdown level1 summary"><p>Logs plugin installed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPluginInstalled(string pluginName, Version pluginVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pluginName</span></td>
+        <td><p>Name of the plugin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td><span class="parametername">pluginVersion</span></td>
+        <td><p>The plugin version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPluginUsed_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPluginUsed*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPluginUsed" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPluginUsed">LogPluginUsed()</h4>
+  <div class="markdown level1 summary"><p>Logs session-total of plugins used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPluginUsed()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPresentingStart_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPresentingStart*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPresentingStart" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPresentingStart">LogPresentingStart()</h4>
+  <div class="markdown level1 summary"><p>Method to log a presenting start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPresentingStart()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPresentingStop_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPresentingStop*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogPresentingStop" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogPresentingStop">LogPresentingStop()</h4>
+  <div class="markdown level1 summary"><p>Method to log a presenting end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogPresentingStop()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorAvgUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorAvgUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorAvgUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorAvgUsage(System.Double)">LogProcessorAvgUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs average CPU usage on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogProcessorAvgUsage(double percentage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>Avg memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorMaxUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorMaxUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorMaxUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorMaxUsage(System.Double)">LogProcessorMaxUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs maximum CPU usage on session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogProcessorMaxUsage(double percentage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>Max memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorMinUsage_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorMinUsage*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogProcessorMinUsage_System_Double_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogProcessorMinUsage(System.Double)">LogProcessorMinUsage(Double)</h4>
+  <div class="markdown level1 summary"><p>Logs processor minimum usage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogProcessorMinUsage(double percentage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>Min memory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogScheduledMeetingLinkClicked_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogScheduledMeetingLinkClicked*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogScheduledMeetingLinkClicked" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogScheduledMeetingLinkClicked">LogScheduledMeetingLinkClicked()</h4>
+  <div class="markdown level1 summary"><p>Logs when a user clicks on a scheduled meeting link.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogScheduledMeetingLinkClicked()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogSimultaneousScreenSharing_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogSimultaneousScreenSharing*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogSimultaneousScreenSharing" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogSimultaneousScreenSharing">LogSimultaneousScreenSharing()</h4>
+  <div class="markdown level1 summary"><p>Logs  when simultaneous sharing of 2 or more clients occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogSimultaneousScreenSharing()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogTelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogTelemetryEvent*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_LogTelemetryEvent_System_Guid_System_Collections_Generic_List_System_Collections_Generic_KeyValuePair_System_String_System_String___" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.LogTelemetryEvent(System.Guid,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})">LogTelemetryEvent(Guid, List&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs telemetry event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogTelemetryEvent(Guid moduleId, List&lt;KeyValuePair&lt;string, string&gt;&gt; parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>Identifier for the module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>Options for controlling the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_OnEndSession_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.OnEndSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_OnEndSession_System_Object_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.OnEndSession(System.Object,Intel.Unite.Common.Core.UserInfo)">OnEndSession(Object, UserInfo)</h4>
+  <div class="markdown level1 summary"><p>Handler for a session starts (client side, fired on Connection Lost)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnEndSession(object sender, UserInfo e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Object sender.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_OnStartSession_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.OnStartSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_OnStartSession_System_Object_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.OnStartSession(System.Object,Intel.Unite.Common.Core.UserInfo)">OnStartSession(Object, UserInfo)</h4>
+  <div class="markdown level1 summary"><p>Handler for a session starts (client side, fired on Connection Ready)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnStartSession(object sender, UserInfo e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Object sender.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_PluginUsed_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.PluginUsed*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_PluginUsed_System_String_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.PluginUsed(System.String)">PluginUsed(String)</h4>
+  <div class="markdown level1 summary"><p>Plugin used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PluginUsed(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_SetPresentingStartTechnology_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.SetPresentingStartTechnology*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_SetPresentingStartTechnology_Intel_Unite_Common_Telemetry_TelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.SetPresentingStartTechnology(Intel.Unite.Common.Telemetry.TelemetryEvent)">SetPresentingStartTechnology(TelemetryEvent)</h4>
+  <div class="markdown level1 summary"><p>Sets presenting start technology.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPresentingStartTechnology(TelemetryEvent technology)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Telemetry.TelemetryEvent.html">TelemetryEvent</a></td>
+        <td><span class="parametername">technology</span></td>
+        <td><p>Technology used. Can be either AV (Audio-Video) or RFT (Legacy)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_SetPresentingStartType_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.SetPresentingStartType*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_SetPresentingStartType_Intel_Unite_Common_Telemetry_TelemetryEvent_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.SetPresentingStartType(Intel.Unite.Common.Telemetry.TelemetryEvent)">SetPresentingStartType(TelemetryEvent)</h4>
+  <div class="markdown level1 summary"><p>Sets presenting start type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPresentingStartType(TelemetryEvent type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Telemetry.TelemetryEvent.html">TelemetryEvent</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type used. Can be either PresentScreen or PresentAnApp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Telemetry_ITelemetryManager_StartSession_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.StartSession*"></a>
+  <h4 id="Intel_Unite_Common_Telemetry_ITelemetryManager_StartSession_System_Object_System_EventArgs_" data-uid="Intel.Unite.Common.Telemetry.ITelemetryManager.StartSession(System.Object,System.EventArgs)">StartSession(Object, EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Starts a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartSession(object sender, EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Object sender.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FeatureModuleBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FeatureModuleBase
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase">
+  
+  
+  <h1 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase" class="text-break">Class FeatureModuleBase
+  </h1>
+  <div class="markdown level0 summary"><p>Defines the base class for a module (plug-in)</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
+    <div class="level2"><a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html">MarshalByRefObjectBase</a></div>
+    <div class="level3"><a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html">ModuleBase</a></div>
+    <div class="level4"><span class="xref">FeatureModuleBase</span></div>
+      <div class="level5"><a class="xref" href="Intel.Unite.Common.Module.Feature.Client.ClientFeatureModuleBase.html">ClientFeatureModuleBase</a></div>
+      <div class="level5"><a class="xref" href="Intel.Unite.Common.Module.Feature.Hub.HubFeatureModuleBase.html">HubFeatureModuleBase</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Intel.Unite.Common.Module.Common.IModuleBase.html">IModuleBase</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_CurrentUiDispatcher">ModuleBase.CurrentUiDispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_ModuleProxyImplementation">ModuleBase.ModuleProxyImplementation</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_ModuleImage">ModuleBase.ModuleImage</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_RuntimeContext">ModuleBase.RuntimeContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_OkToSleepDisplay">ModuleBase.OkToSleepDisplay()</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_ModuleManifest">ModuleBase.ModuleManifest</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_ModuleInfo">ModuleBase.ModuleInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_Load">ModuleBase.Load()</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_Unload">ModuleBase.Unload()</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.ModuleBase.html#Intel_Unite_Common_Module_Common_ModuleBase_CreateContract_System_Windows_FrameworkElement_">ModuleBase.CreateContract(FrameworkElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html#Intel_Unite_Common_Module_Common_MarshalByRefObjectBase_LiveForever">MarshalByRefObjectBase.LiveForever</a>
+    </div>
+    <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html#Intel_Unite_Common_Module_Common_MarshalByRefObjectBase_InitializeLifetimeService">MarshalByRefObjectBase.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Intel.Unite.Common.Module.Feature.html">Intel.Unite.Common.Module.Feature</a></h6>
+  <h6><strong>Assembly</strong>: Intel.Unite.Common.dll</h6>
+  <h5 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class FeatureModuleBase : ModuleBase, IModuleBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase__ctor_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.#ctor*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase__ctor" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.#ctor">FeatureModuleBase()</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the BaseModule classes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected FeatureModuleBase()</code></pre>
+  </div>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase__ctor_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.#ctor*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase__ctor_Intel_Unite_Common_Context_IModuleRuntimeContext_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.#ctor(Intel.Unite.Common.Context.IModuleRuntimeContext)">FeatureModuleBase(IModuleRuntimeContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the BaseModule classes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected FeatureModuleBase(IModuleRuntimeContext runtimeContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Context.IModuleRuntimeContext.html">IModuleRuntimeContext</a></td>
+        <td><span class="parametername">runtimeContext</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_FeatureModuleType_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.FeatureModuleType*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_FeatureModuleType" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.FeatureModuleType">FeatureModuleType</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the type of the feature module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual FeatureModuleType FeatureModuleType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Module.Common.FeatureModuleType.html">FeatureModuleType</a></td>
+        <td><p>The type of the feature module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HtmlUrlOrContent_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HtmlUrlOrContent*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HtmlUrlOrContent" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HtmlUrlOrContent">HtmlUrlOrContent</h4>
+  <div class="markdown level1 summary"><p>Gets the HTML content or URL depending on the UniteModuleType. Null if the module is
+native.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string HtmlUrlOrContent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The HTML URL or content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubConnected_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubConnected*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubConnected_Intel_Unite_Common_Core_HubInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubConnected(Intel.Unite.Common.Core.HubInfo)">HubConnected(HubInfo)</h4>
+  <div class="markdown level1 summary"><p>Hub connected event. Module could get the full context if more details are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void HubConnected(HubInfo hubInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.HubInfo.html">HubInfo</a></td>
+        <td><span class="parametername">hubInfo</span></td>
+        <td><p>The hub info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubDisconnected_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubDisconnected*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubDisconnected_Intel_Unite_Common_Core_HubInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubDisconnected(Intel.Unite.Common.Core.HubInfo)">HubDisconnected(HubInfo)</h4>
+  <div class="markdown level1 summary"><p>Hub disconnected connected. Module could get the full context if more details are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void HubDisconnected(HubInfo hubInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.HubInfo.html">HubInfo</a></td>
+        <td><span class="parametername">hubInfo</span></td>
+        <td><p>The hub info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubInfoChanged_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubInfoChanged*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_HubInfoChanged_Intel_Unite_Common_Core_HubInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.HubInfoChanged(Intel.Unite.Common.Core.HubInfo)">HubInfoChanged(HubInfo)</h4>
+  <div class="markdown level1 summary"><p>Hub info changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void HubInfoChanged(HubInfo hubInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.HubInfo.html">HubInfo</a></td>
+        <td><span class="parametername">hubInfo</span></td>
+        <td><p>The hub info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_IncomingMessage_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.IncomingMessage*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_IncomingMessage_Intel_Unite_Common_Command_Message_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.IncomingMessage(Intel.Unite.Common.Command.Message)">IncomingMessage(Message)</h4>
+  <div class="markdown level1 summary"><p>Process a message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void IncomingMessage(Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Command.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Them message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_SessionKeyChanged_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.SessionKeyChanged*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_SessionKeyChanged_Intel_Unite_Common_Core_KeyValuePair_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.SessionKeyChanged(Intel.Unite.Common.Core.KeyValuePair)">SessionKeyChanged(KeyValuePair)</h4>
+  <div class="markdown level1 summary"><p>Session key changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SessionKeyChanged(KeyValuePair sessionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.KeyValuePair.html">KeyValuePair</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key that changed. For example: LockStatus,
+ModerationMode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserConnected_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserConnected*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserConnected_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserConnected(Intel.Unite.Common.Core.UserInfo)">UserConnected(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>User connected. Module could get the full context if more details are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void UserConnected(UserInfo userInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>The user info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserDisconnected_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserDisconnected*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserDisconnected_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserDisconnected(Intel.Unite.Common.Core.UserInfo)">UserDisconnected(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>User disconnected. Module could get the full context if more details are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void UserDisconnected(UserInfo userInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>The user info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserInfoChanged_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserInfoChanged*"></a>
+  <h4 id="Intel_Unite_Common_Module_Feature_FeatureModuleBase_UserInfoChanged_Intel_Unite_Common_Core_UserInfo_" data-uid="Intel.Unite.Common.Module.Feature.FeatureModuleBase.UserInfoChanged(Intel.Unite.Common.Core.UserInfo)">UserInfoChanged(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>User info changed. Module could get the full context if more details are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void UserInfoChanged(UserInfo userInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Intel.Unite.Common.Core.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>The user info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Intel.Unite.Common.Module.Common.IModuleBase.html">IModuleBase</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

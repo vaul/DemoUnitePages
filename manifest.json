@@ -1,0 +1,2408 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/vdkranak/source/docfxOutput",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Calendar.CalendarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Calendar.CalendarItem.html",
+          "hash": "UG2rwIPlu1wxXG6DFnln6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Calendar.ICalendarManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Calendar.ICalendarManager.html",
+          "hash": "bUvmqMuEpMpoCe0qHNMgSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Calendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Calendar.html",
+          "hash": "cjeJkOqr90iT36hbk9v5Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.CommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.CommandBase.html",
+          "hash": "gfhkYzfPMpmbpR+17zGMbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.ICommandManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.ICommandManager.html",
+          "hash": "yFW/RF91lLWzFQQiPSFZrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.IMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.IMessageSender.html",
+          "hash": "SCqcoM8JvYyDe8W99Sj0ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.Message.html",
+          "hash": "Whq+56m+ijnnkfXwNIpDNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.MessageConstants.CoreMessagesIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.MessageConstants.CoreMessagesIdentifier.html",
+          "hash": "W5Szt/vT6+oxPnRBHsyb7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.MessageConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.MessageConstants.html",
+          "hash": "MwhcNTPMQCk+ijevtUeIkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.MessagePriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.MessagePriority.html",
+          "hash": "TqljtBPPj5rRlpYVT1ptMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.Serialize.BsonCommandSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.Serialize.BsonCommandSerializer.html",
+          "hash": "ZGjFlgzmzFSP5dbdis3GBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.Serialize.ICommandSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.Serialize.ICommandSerializer.html",
+          "hash": "FEh0KnuFqes5ayIOy7Xv4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.Serialize.JsonCommandSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.Serialize.JsonCommandSerializer.html",
+          "hash": "QZSi7f67DQF+3VFv11iTjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.Serialize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.Serialize.html",
+          "hash": "BJMreKQS+va2+XRQKxXYxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Command.html",
+          "hash": "PLfoB4cLNRKkx2SwsjIhsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Configuration.ConfigurationProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Configuration.ConfigurationProperty.html",
+          "hash": "bktHFDLxWHxyNAOPoaKpeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Configuration.IConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Configuration.IConfigurationManager.html",
+          "hash": "/xVKfrRsSNkyEzxP5zkaCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Configuration.html",
+          "hash": "yfs8ZFnFmpFQAIGfE9jPZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Connection.RangerConnectionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Connection.RangerConnectionStatus.html",
+          "hash": "u5vqAvv9I20/TdlszfOiaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Connection.html",
+          "hash": "OHaskjKEq+JDGOm0saIxqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Client.IClientModuleRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Client.IClientModuleRuntimeContext.html",
+          "hash": "sQQWtJS9ShzOYjMiWhmg8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Client.IClientSessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Client.IClientSessionContext.html",
+          "hash": "Nqla2Va44goIllhVmiQH0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Client.html",
+          "hash": "4xF4pC3cGpWl/VgaqXl/9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Hub.IHubModuleRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Hub.IHubModuleRuntimeContext.html",
+          "hash": "0i/gLIUHfk6elFapRSE7TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Hub.IHubSessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Hub.IHubSessionContext.html",
+          "hash": "JvukNhtadOGc9ra999CsYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Hub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Hub.html",
+          "hash": "kuUCfaxBVl7OFs6HxZHIiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.ICommonRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.ICommonRuntimeContext.html",
+          "hash": "yPCRU36AkCu7Z35V+YXEEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.IModuleRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.IModuleRuntimeContext.html",
+          "hash": "wCpMrH3xItZQ2mxXqI/saA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.ISessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.ISessionContext.html",
+          "hash": "5U8+HsppcWFMkdSG2lt6bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.LockStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.LockStatus.html",
+          "hash": "yjKH4pGsdUKB8YCb4z2Kdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.ModuleRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.ModuleRuntimeContext.html",
+          "hash": "rRvQ0hf1UZn9zuqg1ykOQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.ModulesRuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.ModulesRuntimeContext.html",
+          "hash": "ewr4z1PsZaFDo0py4fLcYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.Os.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.Os.html",
+          "hash": "RpaCCyTGt1t6yk5c25H53Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.SessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.SessionKey.html",
+          "hash": "K/B9lMn637+seX33UUUfbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.SessionPreviewStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.SessionPreviewStatus.html",
+          "hash": "4qoI8sQi7nMwnTTh2qw0XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.VerificationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.VerificationProvider.html",
+          "hash": "gFT3qJlwvC/OAilaMI9gXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Context.html",
+          "hash": "uFreFIf23lxR0hpTFqiVIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.HubInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.HubInfo.html",
+          "hash": "BdFTHWb+eW971DfOIIKrtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.KeyValuePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.KeyValuePair.html",
+          "hash": "uXZe/Tg/i+IT1VFwfzhGmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.ModerationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.ModerationMode.html",
+          "hash": "r0qj1SGO4jxpRxy8iU/swQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.ModerationRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.ModerationRole.html",
+          "hash": "mjhVASL7waOPeV3pzdIZoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.PairingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.PairingMode.html",
+          "hash": "3i1pJgEFaXI4Wujm0pUjCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.PresentationOwnerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.PresentationOwnerType.html",
+          "hash": "gnPFXBmA0ys4mCHNPLyFhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.PrivacyMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.PrivacyMode.html",
+          "hash": "hphFKJoriTB9dFn0Wczk3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.RemoteViewInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.RemoteViewInfo.html",
+          "hash": "mhu6w8QJWTziZV4WuzfxCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.UniteHashAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.UniteHashAlgorithm.html",
+          "hash": "fWrtRmKMkHNyPMXqi3rnOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.UserInfo.html",
+          "hash": "MRgtjGENe2nI0hDMiMMwoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.UserLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.UserLocation.html",
+          "hash": "QwHcEjtzSQyIwDM4KSrIRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Core.html",
+          "hash": "JjbPDcLx4kQ814MHFy9mxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.AnnotationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.AnnotationEventArgs.html",
+          "hash": "G6ssxT/kqqjTa7h1Fg2rkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationInfo.html",
+          "hash": "ZJBNO6Yo4tECscXN6UNdnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationResult.html",
+          "hash": "lJJA/j0iFTdWQsHuCwG5KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationResultType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.ClientAllocationResultType.html",
+          "hash": "5p4eyBPT/T+vkv6n3j4iRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.ClientDisplayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.ClientDisplayView.html",
+          "hash": "XVWJShK0g1yPeaeQ8Le8RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.ClientDisplayViewType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.ClientDisplayViewType.html",
+          "hash": "DIi61l7uW2H8o9rN0e8RAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.DisplayViewVisibleArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.DisplayViewVisibleArgs.html",
+          "hash": "7tsTgxa9SWxgB/8T8wo6iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.IClientDisplayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.IClientDisplayManager.html",
+          "hash": "cUROlE64pNgQPBVLzDMwRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Client.html",
+          "hash": "MigHSjkp8+D+jGxRntjNwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.DisplayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.DisplayView.html",
+          "hash": "9Fi5lCuArZmplB+pS3EjEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.DisplayViewEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.DisplayViewEventArgs.html",
+          "hash": "MeyqRLxd79qcNU7p1BZIkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.GetScreenShot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.GetScreenShot.html",
+          "hash": "wA9MJvujbkBLhIAoYBbGVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.CoreBackgroundProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.CoreBackgroundProperties.html",
+          "hash": "XENuNVgdXjhWkbNRD4lsjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationInfo.html",
+          "hash": "rGd+JstmTHdRzhTZXrHsMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationResult.html",
+          "hash": "LYfRsaSXV+62yiS4l3HAxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationResultType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubAllocationResultType.html",
+          "hash": "XOf0ehqPcESgYCcMkKEzpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayMenuView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayMenuView.html",
+          "hash": "n0KeZxPbzajaW8muYwNvog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayView.html",
+          "hash": "rxTdggbEfUredw3E9gunSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayViewType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.HubDisplayViewType.html",
+          "hash": "qMesHOnuQtpkJjny4Aw+tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.IHubDisplayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.IHubDisplayManager.html",
+          "hash": "efzimMoElGg60WPd0aRLXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Hub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Hub.html",
+          "hash": "vpfgJ/jX+hH+8XJvgMD60A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.PhysicalDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.PhysicalDisplay.html",
+          "hash": "+3q+UIFNqrjAQ/80BjtacA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.ScreenFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.ScreenFunctions.html",
+          "hash": "2DYIs433QCqGJ8RGa+nQIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.SharingDialogArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.SharingDialogArgs.html",
+          "hash": "34sUdmcjOfmg1d62mv3tJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.SharingSelectorEventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.SharingSelectorEventDelegate.html",
+          "hash": "m3CQq5nUdzsgT5TJ5nWIpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.Stroke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.Stroke.html",
+          "hash": "i+4XUhMe4ycLGPeG+p9wmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.TakeOverToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.TakeOverToken.html",
+          "hash": "HRs+UmJn87Hwp8yW6l+LdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.UniteColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.UniteColor.html",
+          "hash": "w9vjJa2OFl4lpMwP7Wk2sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.UniteDisplayRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.UniteDisplayRect.html",
+          "hash": "jLwKTGF2oAJyYnwpAp28Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.UniteImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.UniteImage.html",
+          "hash": "Zcv/7gaigppx3Td/V5VJLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.UniteImageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.UniteImageType.html",
+          "hash": "l/937oFg/tlBtP/mARQ9Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Display.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Display.html",
+          "hash": "cusasZTfaUdEklQ5khjL+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.CollectionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.CollectionExtension.html",
+          "hash": "4Ck9eQhJlBoZOeXseuRdRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.EnumerableExtensions.html",
+          "hash": "m06ciXCEdGKtsl84mj6iVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.GenericsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.GenericsExtensions.html",
+          "hash": "JjI3Ft1kHoawsn3GE/pLaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.GuidExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.GuidExtensions.html",
+          "hash": "NhrtKmBMqLv6HcSuKJeAzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.StringExtensions.html",
+          "hash": "Vzt6MgE8I9vFCMdF0oj0Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Extensions.html",
+          "hash": "aXsZQpsOPNlcmgBXZrtaeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.ConfigurationFileResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.ConfigurationFileResult.html",
+          "hash": "/AWrX6eH2YGkgCw6hrOJ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.CustomExceptions.BlockExtensionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.CustomExceptions.BlockExtensionException.html",
+          "hash": "zZFKrXhJyoekzGkYxYne/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.CustomExceptions.FileDoesnotExistExcepcion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.CustomExceptions.FileDoesnotExistExcepcion.html",
+          "hash": "7rhbBwclEJ3AfoCFFfu0aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.CustomExceptions.FolderDoesntExist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.CustomExceptions.FolderDoesntExist.html",
+          "hash": "FChgBv4R1NLP38Y1SwuImw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.CustomExceptions.InvalidFileHandleIdExcepcion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.CustomExceptions.InvalidFileHandleIdExcepcion.html",
+          "hash": "F9ubXq2pwWYZwsaL7GjuUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.CustomExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.CustomExceptions.html",
+          "hash": "FxvbWGvxmRJC8OI9KkVUiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.EnumFileResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.EnumFileResult.html",
+          "hash": "AZZx+B7uaWmLgDnWnACEKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.FileInfoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.FileInfoModel.html",
+          "hash": "ewIbgNO9vQyweXdP62en0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.FileResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.FileResult.html",
+          "hash": "XFetjJpjTl0gfszDgQamxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.IFileManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.IFileManager.html",
+          "hash": "+v4C2rYKDdR1HqqZgbWMIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.File.html",
+          "hash": "0+0kx+SF+6EO8y5IhtaXnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.Client.IClientHotKeysManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.Client.IClientHotKeysManager.html",
+          "hash": "XYbNMSKz2MmHi35kf2hKhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.Client.html",
+          "hash": "vBGZMy48mPBBWy+wZhf4KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.HotKeyRegisterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.HotKeyRegisterResult.html",
+          "hash": "oki9umtt4WBnydtINADCjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.HotKeyRegisterStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.HotKeyRegisterStatus.html",
+          "hash": "MYHvtb9ZkWU+e0MNS0Cszg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.IHotKeysManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.IHotKeysManager.html",
+          "hash": "WV+xHqqercBKRSOtAQ1Wfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.KeyModifierKeysPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.KeyModifierKeysPair.html",
+          "hash": "738jmG3eGASRSs9UnFUT0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.HotKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.HotKeys.html",
+          "hash": "lncHQUqz/dwcMO/uwBMohA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.IThreadManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.IThreadManager.html",
+          "hash": "wbpjbbNdssbOc5EFccN03g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Kpi.IKpiManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Kpi.IKpiManager.html",
+          "hash": "voBt8/U+jX/DgmsfRdxA0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Kpi.KpiEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Kpi.KpiEvent.html",
+          "hash": "06Id2BqVTRB+pFqfSPtBLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Kpi.KpiType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Kpi.KpiType.html",
+          "hash": "vwaUYNVpDr98mxtV2cBVDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Kpi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Kpi.html",
+          "hash": "JPQvtooOQVxSJVQ2+z0r2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Logging.Const.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Logging.Const.html",
+          "hash": "WDI1DeYt73W0czKm8Ifpbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Logging.ILoggingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Logging.ILoggingManager.html",
+          "hash": "9MNQJBi784Qm7Kt53QjnSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Logging.IModuleLoggingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Logging.IModuleLoggingManager.html",
+          "hash": "ZI9yp6jLK+2cxqsbunbJVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Logging.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Logging.LogLevel.html",
+          "hash": "9/v10Y+yaa6UziBTGZsNqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Logging.html",
+          "hash": "E8AAfbvWQOCXMN9FCfvj7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ConfigurationSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ConfigurationSetting.html",
+          "hash": "w6dTRJFPsKsTL0Z3DdVLrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ConfigurationSettingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ConfigurationSettingType.html",
+          "hash": "ZC6mCPYrSG5BzNakqV9MYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.LocalizedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.LocalizedString.html",
+          "hash": "+3LmPCxJ8Ju5OM7jKCMaZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ManifestFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ManifestFile.html",
+          "hash": "nwGXRLhpjD5wlHFWM7l6Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ManifestInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ManifestInstaller.html",
+          "hash": "p4YQ+s9INN9u5xgTCbVA9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ManifestOsSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ManifestOsSet.html",
+          "hash": "F/N53in9aAjWAajEBIoKgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.ModuleManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.ModuleManifest.html",
+          "hash": "Duy4SCz3zOV4DMVXTfcxWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.MultiLanguageString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.MultiLanguageString.html",
+          "hash": "GQtPzhql/ClzJcpqKUAGJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.TypeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.TypeValue.html",
+          "hash": "s9092voyA/o673t6POmGHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.UniteCoreManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.UniteCoreManifest.html",
+          "hash": "+gX6PgZbm0pRv0bd6UXKaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.UniteModuleOwner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.UniteModuleOwner.html",
+          "hash": "TvpNxWg0Dzz+nZjw+h0+MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Manifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Manifest.html",
+          "hash": "awiVuitiSvqH94/ZEZlfow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Moderation.Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Moderation.Features.html",
+          "hash": "7PwXo5Ul6S1uPjjzFTwAhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Moderation.IRoleFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Moderation.IRoleFactory.html",
+          "hash": "xF0Xy72/c+2CwuMnsgRBVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Moderation.LocalRoleFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Moderation.LocalRoleFactory.html",
+          "hash": "OSUUtu0/WRokaAhkcOuGCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Moderation.Role.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Moderation.Role.html",
+          "hash": "XtyLq0k8vClPHWaZGela4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Moderation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Moderation.html",
+          "hash": "MYCxQk5XJ59xjLH9O2yCDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Background.BackgroundModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Background.BackgroundModuleBase.html",
+          "hash": "BgZpjGlVWEC6wa3CKhKGhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Background.IBackgroundModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Background.IBackgroundModuleBase.html",
+          "hash": "wXfv7Q8OrRuwxFGE8JOOTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Background.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Background.html",
+          "hash": "qLKmqZsfkRT4Ucg0PxnoCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ContractCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ContractCreator.html",
+          "hash": "E4xK1GSXXaAU+9blUxviZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.CrashingModuleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.CrashingModuleEventArgs.html",
+          "hash": "yCkdY5uMkwMPl4h2texzWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.ModuleErrorHandlingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.ModuleErrorHandlingService.html",
+          "hash": "RIfQxMQ9aEffcH/AE5KpyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ErrorHandling.html",
+          "hash": "rhO+9EC6H3dq1E5Ogo2fbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.FeatureModuleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.FeatureModuleType.html",
+          "hash": "mzlF/60MFsPvRk50AbZeIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.IModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.IModuleBase.html",
+          "hash": "6qerHLI8vwfsKR4+ZJ6DZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.MarshalByRefObjectBase.html",
+          "hash": "k6SrIuQjzPOfSUgyLuM39w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.MarshalNativeHandleContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.MarshalNativeHandleContract.html",
+          "hash": "foMOZJ9NQibMgiYDnFiwGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleBase.html",
+          "hash": "CCoHTFRDqAz/BVMy3Ln1+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleFullInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleFullInfo.html",
+          "hash": "GNj0x978V7FlD2zWTd0/9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleInfo.html",
+          "hash": "lKBDHyHn3GGCwyyCvr3mFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleProxyImplementation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleProxyImplementation.html",
+          "hash": "s01VBqqh1Ug2KB65NZvS1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleSupportedPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleSupportedPlatform.html",
+          "hash": "SnCgugUYOwOY8nHYCkt1Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.ModuleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.ModuleType.html",
+          "hash": "tH0GTXFH1FQKCu7YmSVFzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Common.html",
+          "hash": "+yWmIhc6/5i1TPL8eAtMDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Credentials.CredentialsModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Credentials.CredentialsModuleBase.html",
+          "hash": "0XbYu9hu4qyYeKrC6AovnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Credentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Credentials.html",
+          "hash": "H6HEcZR/nWPdCUstwvtrZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.DisplayInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.DisplayInfo.html",
+          "hash": "u3P5gvjL+UwWfS9QPjAOVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.ExtendedDisplayPluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.ExtendedDisplayPluginBase.html",
+          "hash": "wkVt0y8gPTtRWWaYYQtyOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.ExtendedDisplay.html",
+          "hash": "nz+wxi8RwcLf5OwC32hHdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.Client.ClientFeatureModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.Client.ClientFeatureModuleBase.html",
+          "hash": "9Vg/FC56EcebXX8cGBaXyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.Client.html",
+          "hash": "k/1e8nms5TwgUphrcfZqSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.FeatureModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.FeatureModuleBase.html",
+          "hash": "pDjSGp96eur3ELz2mwCk6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.Hub.HubFeatureModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.Hub.HubFeatureModuleBase.html",
+          "hash": "eaOgTuKLz9hkvUwA4bpC1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.Hub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.Hub.html",
+          "hash": "v1wwtgQM5gx9gCOJ2Y9sSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Module.Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Module.Feature.html",
+          "hash": "eluoZ0WXO3QUy1X+3snpEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Notification.INotificationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Notification.INotificationManager.html",
+          "hash": "HgBRfReaw5EvquEO7eiNPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Notification.ToastRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Notification.ToastRequest.html",
+          "hash": "3W3LH2bpHGzTskxuacRyKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Notification.html",
+          "hash": "G4boUytIwQMICxj6ZotN2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.PlatformCheck.CpuGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.PlatformCheck.CpuGeneration.html",
+          "hash": "e1fw/qdsJhngStEATZomvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.PlatformCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.PlatformCheck.html",
+          "hash": "8Ty6Jx/b54QDJqNG3sfVjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.ISensorManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.ISensorManager.html",
+          "hash": "th1goYl/4C/UR55m48wQTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.InvalidSensorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.InvalidSensorException.html",
+          "hash": "HZKeLKqdhiIAX8r6Rd61aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.Sensor.html",
+          "hash": "zZE4Bcb3Zk4W5bo1cos4Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.SensorArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.SensorArgs.html",
+          "hash": "DPliA/oWrNHZ3c3EhcEA9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.SensorKeyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.SensorKeyValue.html",
+          "hash": "4flK3D+ntQTAGArVlpk+Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.SensorValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.SensorValueType.html",
+          "hash": "OmyTpIZ2TaobkFAhwoX0bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.UniteSensorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.UniteSensorType.html",
+          "hash": "Wa2flB5IFBKlDe0A/rL1Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Sensor.html",
+          "hash": "NIUmWTtXO7QQMM5b84ly4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.IModuleTelemetry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.IModuleTelemetry.html",
+          "hash": "e3UHFD0010b17J+ildShlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.ITelemetryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.ITelemetryManager.html",
+          "hash": "6yMF6PVGtzOIYkAxiKjs9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.Metadata.html",
+          "hash": "TJTsKGTahkppwdUUsPzr3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.TelemetryEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.TelemetryEvent.html",
+          "hash": "QCXko40TWW74rRCJDjmg2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.TelemetryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.TelemetryType.html",
+          "hash": "OfqEuuuTVxDArmnZBeRZhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Telemetry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Telemetry.html",
+          "hash": "nACPdK0F+3pbdHfO76B2gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Ui.ILookAndFeelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Ui.ILookAndFeelManager.html",
+          "hash": "VHe0dK15j3nGV/rNviUc8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Ui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Ui.html",
+          "hash": "ReDwaN0c9af6RIQW/lHvHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.ArrayLocalizeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.ArrayLocalizeHelper.html",
+          "hash": "O2lrWelJRbULd09K9AzXjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.BytesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.BytesHelper.html",
+          "hash": "8Z3UdE0OaEWH6KwRhML2Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.ControlsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.ControlsHelper.html",
+          "hash": "qN+/8UxwyjWki1cjySiCxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.CopyEventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.CopyEventHandlers.html",
+          "hash": "++UO4PyCI5H7ADYQH1ASHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.CopyEventsHandlersExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.CopyEventsHandlersExtensionMethods.html",
+          "hash": "RmQoJtcbatWGk/Dy3NWsAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.GenericsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.GenericsHelper.html",
+          "hash": "Zb/UOT72l55ormod9Vlegg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.Utils.html",
+          "hash": "Lr+2/KVZLCPX5NWcI7V/ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Intel.Unite.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Intel.Unite.Common.html",
+          "hash": "loczuDDIt8h8fhpyd3i50w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "KK4PASMSs+L4QQgyt4YcnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "jXaN+2R1gch6yFpAqPtG7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "axJcta7kEIEy3M5hNoNVSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ndIKTtwMr2OQXA3cgsJE3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 190,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
